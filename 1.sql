@@ -1,1 +1,2 @@
 Create Database APLIKASIPASAR;
+Use APLIKASIPASAR;
