@@ -1,16 +1,29 @@
-Create Database APLIKASIPASAR;
-Use APLIKASIPASAR;
+Create Database APLIKASIPASAR
+Use APLIKASIPASAR
+Go
 
 CREATE TABLE PEMILIK (
     Id INT NOT NULL,
     Nama VARCHAR(50) NOT NULL,
     Alamat VARCHAR(100) NOT NULL,
     Nik VARCHAR(16) NOT NULL,
-    No_wa VARCHAR(13),
-    No_telp VARCHAR(13),
-    Created_by VARCHAR(50),
-    Edited_by VARCHAR(50),
-    Created_at DATETIME,
-    Edited_at DATETIME,
+    NoWa VARCHAR(13),
+    NoTelp VARCHAR(13),
+    CreatedBy VARCHAR(50),
+    EditedBy VARCHAR(50),
+    CreatedAt DATETIME,
+    EditedAt DATETIME,
+    PRIMARY KEY (Id)
+)
+
+CREATE TABLE PASAR (
+    Id INT NOT NULL,
+    Nama VARCHAR(50) NOT NULL,
+    Alamat VARCHAR(100) NOT NULL,
+    KodePasar VARCHAR(5),
+    CreatedBy VARCHAR(50),
+    EditedBy VARCHAR(50),
+    CreatedAt DATETIME,
+    EditedAt DATETIME,
     PRIMARY KEY (Id)
 )
