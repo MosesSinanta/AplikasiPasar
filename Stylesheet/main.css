@@ -9,14 +9,14 @@ body, html {
     width: 100%;
 }
 
-.navbar {
+.navbar1 {
     background-color: #000000;
     display: block;
     height: 100%;
     width: 20%;
 }
 
-.navbar .title {
+.navbar1 .title {
     align-items: center;
     color: #FFFFFF;
     display: flex;
@@ -31,14 +31,30 @@ body, html {
     background-color: #333333;
 }
 
-.navbar button {
-    background-color: transparent;
-    border: none;
-    color: white;
+.navbar2a {
+    display: flex;
+    float: left;
+    height: 5%;
+    padding-bottom: 10%;
+    width: 30%;
+}
+
+.navbar2a img {
+    display: inline-block;
+    height: 100%;
+    padding-left: 50%;
+}
+
+.navbar2b {
+    align-items: center;
+    display: flex;
+    height: 5%;
+    padding-bottom: 10%;
+    width: 70%;
+}
+
+.navbar2b p {
+    color: #FFFFFF;
     font-family: Nunito;
-    margin-bottom: 1.25%;
-    margin-top: 1.25%;
-    padding-bottom: 5%;
-    padding-top: 5%;
-    width: 100%;
+    padding-left: 5%;
 }
